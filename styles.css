@@ -1,0 +1,113 @@
+body {
+            font-family: Arial, sans-serif;   /* Comprendre pourquoi ça*/
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #FFFFFF;
+            color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            max-width: 500px;
+        }
+		
+		
+		
+        nav {
+            background-color: #35424a;
+            color: white;                       
+        }
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;                 
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;                  
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;                    
+            margin: 0 auto; 
+        }
+        section {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #35424a;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+		
+        /*
+		footer {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		*/
+		
+		footer {
+			background-color: #35424a;
+			color: white;      /* modifie la couleur du texte en blanc */
+			text-align: center;
+			padding: 10px;
+			margin-top: 20px;
+		}
+		
+		#pd-foot {
+			background-color: #f0f0f0; /* modifie la couleur de fond des en-tetes */
+			background-color: #f0f0f0; /* Change l'arrière-plan */
+			padding: 5px; /* Ajoute un espace interne */
+			border-radius: 5px; /* Arrondit les coins */
+			text-align: center; /* Centre le texte */
+			color: black; /* modifie la couleur du texte dans l'en-tete en blanc */
+			
+		}
+			
+		.pc-foot {
+			background-color: #f0f0f0; /* Change l'arrière-plan */
+			padding: 5px; /* Ajoute un espace interne */
+			border-radius: 5px; /* Arrondit les coins */
+			text-align: center; /* Centre le texte */
+			color: black;
+		}
+		
+		#tab {
+			width: 100%; /* pour prendre toute la largeur */
+			border-collapse: collapse; /* c'est pour supprime l'espace entre les bordures */
+        }
+
+		#tab th, #tab td {
+			border: 1px solid black; /* Bordure noire pour les cellules */
+			padding: 10px; /* Espacement du texte dans les cellules*/
+			text-align: center; /* Centre le texte */
+			
+		}
+
+		#tab th {
+			background-color: #35424a; /* modifie la couleur de fond des en-tetes */
+			color: white; /* modifie la couleur du texte dans l'en-tete en blanc */
+		}
+
+		#tab tr:hover {
+			background-color: #15A8BC; /* mettre le fond en gris au survol */
+		}
